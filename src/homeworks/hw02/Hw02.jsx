@@ -32,8 +32,8 @@ const users = [
 function Hw02(){
 
   return (
-    <div>
-      {users.map((user) => (<ProfileCard key={user.id} user={user}/>))}
+    <div className="hw02-container">
+      {users.map((user) => (< ProfileCard key={user.id} user={user}/>))}
     </div>
   );
 }
